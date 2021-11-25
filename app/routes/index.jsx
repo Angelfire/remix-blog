@@ -23,7 +23,7 @@ export const loader = async () => {
         name: "URL Params and Error Boundaries"
       }
     ],
-    posts: [...posts]
+    posts
   };
 
   // https://remix.run/api/remix#json
