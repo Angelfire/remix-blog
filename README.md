@@ -1,6 +1,8 @@
-# Welcome to Remix!
+# Welcome to Remix Blog!
 
 - [Remix Docs](https://remix.run/docs)
+
+![Screen Shot 2021-11-24 at 7 34 35 PM](https://user-images.githubusercontent.com/315504/143330029-989a6fae-c044-4206-a173-05d0a1b2d328.png)
 
 ## Development
 
