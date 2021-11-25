@@ -1,8 +1,13 @@
 {
   "private": true,
-  "name": "remix-app-template-js",
-  "description": "",
+  "name": "blog-remix",
+  "description": "Simple blog using Remix",
   "license": "",
+  "version": "1.0.0",
+  "author": {
+    "name": "Andrés Bedoya",
+    "url": "https://srhart.co"
+  },
   "scripts": {
     "build": "remix build",
     "dev": "remix dev",
