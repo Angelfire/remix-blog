@@ -74,7 +74,9 @@ export default function Index() {
         <ul>
           {data.posts.map(post => (
             <li key={post.slug} className="remix__page__resource">
-              <Link to={`/posts/${post.slug}`}>{post.title}</Link>
+              <Link to={`/posts/${post.slug}`}>
+                {post.title}
+              </Link>
             </li>
           ))}
         </ul>
