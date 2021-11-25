@@ -2,6 +2,12 @@ import { useLoaderData } from "remix";
 import invariant from "tiny-invariant";
 import { getPost } from "~/post";
 
+export const meta = ({ data }) => {
+  return {
+    title: `Blog: ${data.title}`,
+  };
+};
+
 export const loader = async({ params }) => {
   invariant(params.slug, "expected params.slug");
 

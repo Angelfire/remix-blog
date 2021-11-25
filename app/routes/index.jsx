@@ -70,7 +70,7 @@ export default function Index() {
             </li>
           ))}
         </ul>
-        <h2>Posts</h2>
+        <h2>Blog Posts</h2>
         <ul>
           {data.posts.map(post => (
             <li key={post.slug} className="remix__page__resource">
